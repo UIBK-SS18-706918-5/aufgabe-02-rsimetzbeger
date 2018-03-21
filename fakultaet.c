@@ -15,6 +15,8 @@ f = atof(argv[1]);}
 		s = i*s;}
 	//Ausgabe
 	printf("Fakultaet von %i ist %i \n",f,s);
+	printf("Anzahl der Bytes von zahl: %i\n", sizeof(s));
 return 0;
 }
+//Fakultät bis inklusive 12 berechnebar
 
